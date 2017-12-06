@@ -1,0 +1,11 @@
+.clear {
+clear : both;
+}
+h2.margin50 {
+padding-top : 40px;
+}
+#additional_header {
+font-weight : bold;
+color : #ee0000;
+font-size : larger;
+}

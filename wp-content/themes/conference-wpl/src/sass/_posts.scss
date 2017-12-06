@@ -1,0 +1,327 @@
+/*	----------------------------------------------------------
+	General Posts
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.title_blog_container {
+	border-bottom: 1px solid lighten($black, 90);
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+article {
+	/*border-bottom: 1px solid lighten($black, 90);*/
+	margin-bottom: 3em;
+	a {
+		color: $color-active;
+		&:hover {
+			color: darken($color-active, 5);
+			text-decoration: none;
+		}
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		margin-top: 2em;
+		color: lighten($black, 35);
+	}
+
+	h1 {
+		font-size: 1.3em;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	h3 {
+		font-size: 1.1em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+	h5 {
+		font-size: 0.95em;
+	}
+	h6 {
+		font-size: 0.85em;
+	}
+}
+
+h1.title_blog {
+	font-family: $montserrat;
+	margin-top: 0.75em;
+	font-size: 1.8em;
+	font-weight: 400;
+	margin-bottom: 0em;
+	color: lighten($black, 22);
+}
+
+.entry-meta {
+	span {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: .9em;
+		color: lighten($black, 40);
+		a {
+			color: lighten($black, 40);
+			&:hover {
+				color: $color-active;
+			}
+		}
+	}
+	.date {
+		&:after {
+			content: " \2022 ";
+		}
+	}
+	.category {
+
+	}
+	.author {
+		&:before {
+			content: " \2022 ";
+		}
+	}
+}
+
+h1.entry-title {
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: initial;
+	margin-top: 0em;
+	a {
+		font-weight: 400;
+		font-family: $lato;
+		font-size: .5em;
+		color: lighten($black, 30);
+		&:hover {
+			color: $color-active;
+		}
+	}	
+}
+
+.entry-featured-image {
+	padding: 1em 0;
+	img {
+		@include border_radius();
+		border: 1px solid lighten($black, 90);
+	}
+}
+
+.entry-excerpt p{
+	font-weight: 400;
+	font-size: 1.25em;
+	color: lighten($black, 40);
+}
+
+.entry-content p{
+	font-weight: 400;
+	font-size: 1em;
+	color: lighten($black, 40);
+}
+
+.entry-more {
+	padding: 1em 0 3em 0;
+	.btn-post-more {
+		padding: 7px 20px;
+	}
+}
+
+/*	----------------------------------------------------------
+	Share buttons
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.entry-share {
+	b {
+		color: lighten($black, 30);
+	}
+	a {
+		font-size: .9em;
+		color: lighten($black, 40);
+		display: inline-block;
+		position: relative;
+		margin: 0 15px;
+		font-size: 1em;
+		&.twitter::before {
+			content : "  \f099 ";
+			color: #55acee;
+		}
+		&.facebook::before {
+			content : "  \f09a ";
+			color: #3b5998;
+		}
+		&.pinterest::before {
+			content : "  \f0d2  ";
+			color: #cb2027;
+		}
+		&:hover {
+			color: $color-active;
+			text-decoration: none;
+		}
+		&:before {
+			margin: 0 10px;
+			font-size: 1.3em;
+			font-family: $fa;
+		}
+	}
+}
+
+
+/*	----------------------------------------------------------
+	Singele Post
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.entry-tag {
+	margin-bottom: 10px;
+	b {
+		color: lighten($black, 30);
+	}
+	a {
+		margin: 5px;
+		padding: 2px 5px;
+		background: $color-active;;
+		color: $white;
+		font-size: 14px;
+		transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		text-decoration: none;
+		&:visited {
+			color: $white;
+		}
+		&:hover {
+
+			background: #ebeff2;
+			color: $black;
+		}
+	}
+}	
+
+/*	----------------------------------------------------------
+	Singele Post
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.single_post {
+	article {
+		border-bottom: none;
+	}
+}
+
+
+/*	----------------------------------------------------------
+	Archive Posts
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.title_blog_container {
+	border-bottom: 1px solid lighten($black, 90);
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+.blog_posts {
+
+}
+
+/*	----------------------------------------------------------
+	Gallery
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.single-page-gallery_slider {
+	position: relative;
+	.customNavigation-single {
+		.navpositiongalextent {
+			position: absolute;
+			top: 0%;
+			padding: 30% 25px 0 25px;
+			font-size: 2em;
+			color: lighten($black, 90);
+			@include transparent($black, 0.3);
+			height: 100%;
+			&:hover {
+				color: lighten($black, 70);
+				@include transparent($black, 0.6);
+			}
+		}
+
+		/*	----------------------------------------------------------
+			Next Preview Buttons
+		= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+		.btn {
+			&.prev-gallery {
+				@extend .navpositiongalextent;
+				left: 0;
+			}
+			&.next-gallery {
+				@extend .navpositiongalextent;
+				right:0;
+			}
+		}
+	}
+}
+
+/*	----------------------------------------------------------
+	Error page
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+
+.error-page {
+	.error-title {
+		font-size: 15em;
+		text-align: center;
+	}
+
+	h4 {
+		text-align: center;
+		margin-bottom: 80px
+	}
+	.go-home {
+		text-align: center;
+		margin-bottom: 80px
+	}
+}
+#contact-form .btn-default, .wpcf7-submit {
+	border-radius: 30px !important;
+	border: none;
+}
+
+/*	----------------------------------------------------------
+	Page Brake
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.page-link {
+	margin-bottom: 13px;
+	
+	span {
+		color: #4d4d4d;
+		font-weight: bold;
+	}
+
+	a {
+		margin: 5px;
+		padding: 2px 5px;
+		background: $color-active;;
+		color: $white;
+		font-size: 14px;
+		transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		text-decoration: none;
+		&:visited {
+			color: $white;
+		}
+		&:hover {
+
+			background: #ebeff2;
+			color: $black;
+		}
+	}
+}
+
+/*	----------------------------------------------------------
+	Main article on template pages
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.template-main-article {
+	margin: 0 15px;
+}

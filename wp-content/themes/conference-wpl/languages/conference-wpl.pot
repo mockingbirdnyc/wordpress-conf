@@ -1,0 +1,2595 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the conference package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: inc/library.php:427 inc/library.php:446 inc/widgets/widget-address.php:44
+#: inc/widgets/widget-address.php:51 inc/widgets/widget-address.php:58
+#: inc/widgets/widget-address.php:65 inc/widgets/widget-address.php:72
+#: inc/widgets/widget-countdown.php:44 inc/widgets/widget-gallery-home.php:57
+#: inc/widgets/widget-page.php:38 inc/widgets/widget-posts.php:58
+#: inc/widgets/widget-quote.php:38 inc/widgets/widget-quote.php:45
+#: inc/widgets/widget-schedule.php:59 inc/widgets/widget-social.php:39
+#: inc/widgets/widget-social.php:46 inc/widgets/widget-social.php:53
+#: inc/widgets/widget-social.php:59 inc/widgets/widget-social.php:65
+#: inc/widgets/widget-social.php:71 inc/widgets/widget-social.php:78
+#: inc/widgets/widget-social.php:84 inc/widgets/widget-social.php:90
+#: inc/widgets/widget-social.php:96 inc/widgets/widget-social.php:102
+#: inc/widgets/widget-social.php:108 inc/widgets/widget-social.php:115
+#: inc/widgets/widget-speakers.php:72 inc/widgets/widget-sponsors.php:63
+#: inc/widgets/widget-staff.php:72 inc/widgets/widget-tickets.php:59
+#: inc/widgets/widget-video.php:44 inc/widgets/widget-video.php:51
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: conference 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-30 01:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:26
+msgid "404 Error Page"
+msgstr ""
+
+#: 404.php:37
+msgid "The page you were looking for could not be found."
+msgstr ""
+
+#: 404.php:40
+msgid "Go Home"
+msgstr ""
+
+#: archive-post_gallery.php:82 archive-post_speaker.php:89
+#: single-post_speaker.php:72 single-post_sponsor.php:53
+#: template-gallery.php:90 template-speakers.php:99
+msgid "Sorry, no Speakers matched your criteria."
+msgstr ""
+
+#: archive-post_sponsor.php:63 template-sponsors.php:70
+msgid "Sorry, no Sponsors matched your criteria."
+msgstr ""
+
+#: archive-post_staff.php:88 template-staff.php:97
+msgid "Sorry, no staff members matched your criteria."
+msgstr ""
+
+#: archive.php:63 content-page.php:18 content.php:54 content.php:110
+msgid "Pages:"
+msgstr ""
+
+#: archive.php:66 content.php:115
+msgid "Read more"
+msgstr ""
+
+#: archive.php:72
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:14
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:22
+#, php-format
+msgid "One Coment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:22
+msgid "Comments RSS"
+msgstr ""
+
+#: comments.php:22
+msgid "RSS"
+msgstr ""
+
+#: comments.php:32
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:33
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:60
+msgid "Tags: "
+msgstr ""
+
+#: content.php:68
+msgid "Share:"
+msgstr ""
+
+#: footer.php:46
+msgid "Designed by"
+msgstr ""
+
+#: footer.php:46
+msgid "Conference WordPress Theme"
+msgstr ""
+
+#: functions.php:108
+msgid "Main Menu Homepage"
+msgstr ""
+
+#: functions.php:109
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Footer Menu"
+msgstr ""
+
+#: inc-teaser.php:57 inc/custom-post-type/speakers.php:23
+#: inc/theme-options.php:647 inc/widgets/widget-speakers.php:37
+msgid "Speakers"
+msgstr ""
+
+#: inc-teaser.php:66 inc/custom-post-type/tickets.php:18
+#: inc/widgets/widget-tickets.php:37
+msgid "Tickets"
+msgstr ""
+
+#: inc/comment.php:25
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: inc/comment.php:39 inc/comment.php:78
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comment.php:64
+msgid "Pingback/Trackback"
+msgstr ""
+
+#: inc/comment.php:107 inc/library.php:882
+msgid "Name"
+msgstr ""
+
+#: inc/comment.php:109 inc/custom-post-type/meta-boxes.php:393
+#: inc/custom-post-type/meta-boxes.php:736
+#: inc/custom-post-type/meta-boxes.php:739 inc/widgets/widget-address.php:174
+msgid "Email"
+msgstr ""
+
+#: inc/comment.php:111
+msgid "Website"
+msgstr ""
+
+#: inc/comment.php:114
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: inc/comment.php:117
+msgid "Comment"
+msgstr ""
+
+#: inc/comment.php:118
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/comment.php:119
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: inc/comment.php:120
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/comment.php:123
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/comment.php:124
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/comment.php:125
+msgid "or Cancel reply"
+msgstr ""
+
+#: inc/comment.php:126
+msgid "Send Comment"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:20 inc/custom-post-type/meta-boxes.php:282
+#: inc/library.php:329 inc/library.php:331 inc/widgets/widget-gallery.php:37
+msgid "Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:25 inc/theme-options.php:927
+#: inc/widgets/widget-gallery-home.php:36
+msgid "Galleries"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:27 inc/custom-post-type/gallery.php:28
+msgid "Add New Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:29 inc/custom-post-type/payments.php:25
+#: inc/custom-post-type/schedule.php:25 inc/custom-post-type/speakers.php:27
+#: inc/custom-post-type/sponsors.php:28 inc/custom-post-type/staff.php:28
+#: inc/custom-post-type/testimonials.php:25 inc/custom-post-type/tickets.php:22
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:30
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:31
+msgid "New Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:32 inc/custom-post-type/payments.php:28
+#: inc/custom-post-type/schedule.php:28 inc/custom-post-type/speakers.php:30
+#: inc/custom-post-type/sponsors.php:31 inc/custom-post-type/staff.php:31
+#: inc/custom-post-type/testimonials.php:28 inc/custom-post-type/tickets.php:25
+msgid "View"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:33
+msgid "View Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:34
+msgid "Search Galleries"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:35
+msgid "No Galleries found"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:36
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:37
+msgid "Parent Gallery"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:39
+msgid "Easily lets you create some beautiful Galleries."
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:70
+msgid "Gallery Categories"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:71 inc/custom-post-type/sponsors.php:68
+#: inc/custom-post-type/tickets.php:59
+msgid "Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:72 inc/custom-post-type/speakers.php:68
+#: inc/custom-post-type/sponsors.php:69 inc/custom-post-type/tickets.php:60
+msgid "Search in Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:73 inc/custom-post-type/speakers.php:69
+#: inc/custom-post-type/sponsors.php:70 inc/custom-post-type/tickets.php:61
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:74 inc/custom-post-type/speakers.php:70
+#: inc/custom-post-type/sponsors.php:71 inc/custom-post-type/tickets.php:62
+msgid "All Categories"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:75 inc/custom-post-type/speakers.php:71
+#: inc/custom-post-type/sponsors.php:72 inc/custom-post-type/tickets.php:63
+msgid "Parent Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:76 inc/custom-post-type/speakers.php:72
+#: inc/custom-post-type/sponsors.php:73 inc/custom-post-type/tickets.php:64
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:77 inc/custom-post-type/speakers.php:73
+#: inc/custom-post-type/sponsors.php:74 inc/custom-post-type/tickets.php:65
+msgid "Edit Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:78 inc/custom-post-type/speakers.php:74
+#: inc/custom-post-type/sponsors.php:75 inc/custom-post-type/tickets.php:66
+msgid "Update Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:79 inc/custom-post-type/speakers.php:75
+#: inc/custom-post-type/sponsors.php:76 inc/custom-post-type/tickets.php:67
+msgid "Add New Category"
+msgstr ""
+
+#: inc/custom-post-type/gallery.php:80 inc/custom-post-type/speakers.php:76
+#: inc/custom-post-type/sponsors.php:77 inc/custom-post-type/tickets.php:68
+msgid "New Category Name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:27
+msgid "Page Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:34
+#: inc/custom-post-type/meta-boxes.php:110
+#: inc/custom-post-type/meta-boxes.php:270
+#: inc/custom-post-type/meta-boxes.php:482
+msgid "Header image"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:37
+#: inc/custom-post-type/meta-boxes.php:113
+#: inc/custom-post-type/meta-boxes.php:273
+msgid ""
+"The image will be displayed in the header of the page. Recommended "
+"dimensions: 1680px x 800px."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:46
+#: inc/custom-post-type/meta-boxes.php:241
+#: inc/custom-post-type/meta-boxes.php:309
+#: inc/custom-post-type/meta-boxes.php:559
+#: inc/custom-post-type/meta-boxes.php:613
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:49
+#: inc/custom-post-type/meta-boxes.php:244
+#: inc/custom-post-type/meta-boxes.php:312
+#: inc/custom-post-type/meta-boxes.php:562
+#: inc/custom-post-type/meta-boxes.php:616
+msgid "Display or hide the sidebar on this page"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:67
+msgid "Columns size"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:74
+msgid "Columns"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:77
+msgid "Add the number of Columns between 1-12. Default is 3"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:122
+msgid "Display Share Buttons"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:125
+msgid ""
+"Select \"Default\" to follow the global setting found in Theme Options, or "
+"one of the other two options to override it for just this post."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:128
+#: inc/custom-post-type/meta-boxes.php:671
+msgid "Default"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:132
+msgid "On"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:136
+msgid "Off"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:157
+msgid "Speaker Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:164
+msgid "Company Name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:167
+msgid "Company name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:177
+msgid "Company URL"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:180
+msgid "Company url"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:190
+#: inc/custom-post-type/meta-boxes.php:508
+msgid "Social Network links"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:193
+#: inc/custom-post-type/meta-boxes.php:511
+msgid ""
+"Press the <strong>Add New</strong> button in order to add social media links."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:196
+#: inc/custom-post-type/meta-boxes.php:514 inc/theme-options.php:429
+msgid "Service Name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:199
+#: inc/custom-post-type/meta-boxes.php:517 inc/theme-options.php:432
+msgid "The name of the social network site, for example: \"Facebook\""
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:208
+#: inc/custom-post-type/meta-boxes.php:526
+#: inc/custom-post-type/meta-boxes.php:600 inc/theme-options.php:441
+msgid "URL"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:211
+#: inc/custom-post-type/meta-boxes.php:529 inc/theme-options.php:444
+msgid ""
+"Enter the URL of the social network site, for example: http://www.facebook."
+"com/wplookthemes"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:220
+#: inc/custom-post-type/meta-boxes.php:538 inc/theme-options.php:453
+msgid "Icon"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:223
+#: inc/custom-post-type/meta-boxes.php:541
+msgid ""
+"<strong>NOTICE</strong>: Choose one item from tne next list: <br />fa-"
+"facebook, <br />fa-github, <br />fa-twitter, <br />fa-pinterest, <br />fa-"
+"linkedin, <br />fa-google-plus, <br />fa-youtube, <br />fa-flickr"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:263
+msgid "Gallery Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:285
+msgid ""
+"Press the <strong>Add New</strong> button in order to add images to gallery."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:288
+msgid "Gallery Image"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:291
+msgid "The required dimensions:  (1200 x 800 px)"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:331
+msgid "Cause Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:338
+#: inc/custom-post-type/meta-boxes.php:341
+msgid "Choose the ticket"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:349
+msgid "Transaction ID/Token"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:352
+msgid "Add the transaction ID"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:360
+msgid "First name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:363
+msgid "Add the first name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:371
+msgid "Last name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:374
+msgid "Add the last name"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:382
+msgid "Country"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:385
+msgid "Add the Postal Code"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:396
+msgid "Add the Email address"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:404
+msgid "Payment Amount"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:407
+msgid "Add the Payment Amount"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:415 inc/library.php:753
+msgid "Payment Source"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:418
+msgid "Choose the pledge payment source"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:421
+msgid "Manual"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:425
+msgid "PayPal"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:429
+msgid "Check/Cash"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:440 inc/library.php:754
+msgid "Payment Status"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:443
+msgid "Choose the pledge payment status"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:446
+msgid "Completed"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:450
+msgid "Refunded"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:454
+msgid "Canceled"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:475
+msgid "Staff Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:485
+msgid ""
+"Optional! <br /> The image will be displayed in the header of the page. "
+"Recommended dimensions: 1680px x 800px."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:495 inc/library.php:883
+msgid "Position"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:498
+msgid "Candidate position, (ex: CEO/Co-Founder)"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:580
+msgid "Media Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:587
+msgid "Logo"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:590
+msgid "*  <br /> The required dimensions:  (200x85px)"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:603
+msgid "Add a sponsor URL, ex: http://wplook.com"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:634
+msgid "Tickets Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:641
+msgid "Price"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:644
+msgid "Ticket price"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:653
+#: inc/custom-post-type/meta-boxes.php:656
+msgid "Ribbon Text"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:665
+msgid "Ribbon Color"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:668
+msgid "Choose the Ribon Color"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:675
+msgid "Green"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:679
+msgid "Orange"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:683
+msgid "Purple"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:695
+msgid "Eventbrite URL"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:698
+msgid "Sell Tickets on Eventbrite.com"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:717
+msgid "Testimonial Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:724
+#: inc/custom-post-type/meta-boxes.php:727 inc/library.php:935
+msgid "Company"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:758
+msgid "Schedule Options"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:765
+msgid "Daily thematic"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:768
+msgid "Add a title for daily agenda"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:777
+msgid "Sessions"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:780
+msgid ""
+"Press the <strong>Add New</strong> button in order to add a new sessions for "
+"this day."
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:783 inc/custom-post-type/speakers.php:18
+#: inc/library.php:299 inc/library.php:301
+msgid "Speaker"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:786
+msgid "Select the Speaker for this session"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:795
+msgid "Tematics"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:798
+msgid "Add the thematic"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:807
+msgid "Short Description"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:810
+msgid "Add a shord description"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:819
+msgid "Start time"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:822
+msgid "Session start time"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:831
+msgid "End time"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:834
+msgid "Session end time"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:843
+msgid "Display the session in the widget"
+msgstr ""
+
+#: inc/custom-post-type/meta-boxes.php:846
+msgid "Display or hide the session in the WPlook Schedule widget."
+msgstr ""
+
+#: inc/custom-post-type/payments.php:21
+msgid "Payments"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:22
+msgid "Payment"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:23 inc/custom-post-type/payments.php:24
+msgid "Add New Payment"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:26
+msgid "Edit Payment"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:27
+msgid "New Payment"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:29
+msgid "View Payments"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:30
+msgid "Search Payments"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:31
+msgid "No Payments found"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:32
+msgid "No Payments found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:33
+msgid "Parent Payment"
+msgstr ""
+
+#: inc/custom-post-type/payments.php:35
+msgid "Easily lets you create some beautiful Payments."
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:21 inc/custom-post-type/schedule.php:22
+msgid "Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:23 inc/custom-post-type/schedule.php:24
+msgid "Add New Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:26
+msgid "Edit Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:27
+msgid "New Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:29
+msgid "View Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:30
+msgid "Search Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:31
+msgid "No Daily Agenda found"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:32
+msgid "No Daily Agenda found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:33
+msgid "Parent Daily Agenda"
+msgstr ""
+
+#: inc/custom-post-type/schedule.php:35
+msgid "Easily lets you create some beautiful Daily Agendas."
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:25 inc/custom-post-type/speakers.php:26
+msgid "Add New Speaker"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:28
+msgid "Edit Speaker"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:29
+msgid "New Speaker"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:31
+msgid "View Speakers"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:32
+msgid "Search Speakers"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:33
+msgid "No Speakers found"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:34
+msgid "No Speakers found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:35
+msgid "Parent Speaker"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:37
+msgid "Easily lets you create some beautiful Speakers."
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:66
+msgid "Speakers Categories"
+msgstr ""
+
+#: inc/custom-post-type/speakers.php:67 inc/custom-post-type/staff.php:68
+msgid "Department"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:19 inc/custom-post-type/sponsors.php:24
+#: inc/widgets/widget-sponsors.php:35
+msgid "Sponsors"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:26 inc/custom-post-type/sponsors.php:27
+msgid "Add New Sponsor"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:29
+msgid "Edit Sponsor"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:30
+msgid "New Sponsor"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:32
+msgid "View Sponsor"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:33
+msgid "Search Sponsors"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:34
+msgid "No Sponsors found"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:35
+msgid "No Sponsors found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:36
+msgid "Parent Sponsor"
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:38
+msgid "Easily lets you create some beautiful Sponsors."
+msgstr ""
+
+#: inc/custom-post-type/sponsors.php:67
+msgid "Sponsor Categories"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:19 inc/custom-post-type/staff.php:24
+#: inc/library.php:309 inc/library.php:311 inc/theme-options.php:731
+#: inc/widgets/widget-staff.php:37
+msgid "Staff"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:26 inc/custom-post-type/staff.php:27
+msgid "Add New Candidate"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:29
+msgid "Edit Candidate"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:30
+msgid "New Candidate"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:32
+msgid "View Candidate"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:33
+msgid "Search for Candidates"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:34
+msgid "No Candidates found"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:35
+msgid "No Candidates found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:36
+msgid "Parent Candidate"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:38
+msgid "Easily lets you create some beautiful Staff."
+msgstr ""
+
+#: inc/custom-post-type/staff.php:67
+msgid "Staff Departaments"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:69
+msgid "Search in Department"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:70
+msgid "Popular Departments"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:71
+msgid "All Departments"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:72
+msgid "Parent Department"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:73
+msgid "Parent Department:"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:74
+msgid "Edit Department"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:75
+msgid "Update Department"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:76
+msgid "Add New Department"
+msgstr ""
+
+#: inc/custom-post-type/staff.php:77
+msgid "New Department Name"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:21
+#: inc/widgets/widget-testimonials.php:37
+msgid "Testimonials"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:22
+msgid "Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:23
+#: inc/custom-post-type/testimonials.php:24
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:26
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:27
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:29
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:30
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:31
+msgid "No Testimonials found"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:32
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:33
+msgid "Parent Testimonial"
+msgstr ""
+
+#: inc/custom-post-type/testimonials.php:35
+msgid "Easily lets you create some beautiful Testimonials."
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:19 inc/library.php:749
+msgid "Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:20 inc/custom-post-type/tickets.php:21
+msgid "Add New Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:23
+msgid "Edit Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:24
+msgid "New Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:26
+msgid "View Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:27
+msgid "Search Tickets"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:28
+msgid "No Tickets found"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:29
+msgid "No Tickets found in Trash"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:30
+msgid "Parent Ticket"
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:32
+msgid "Easily lets you create some beautiful Tickets."
+msgstr ""
+
+#: inc/custom-post-type/tickets.php:58
+msgid "Ticket Categories"
+msgstr ""
+
+#: inc/library.php:68 inc/widgets/widget-page.php:112
+msgid "Read More"
+msgstr ""
+
+#: inc/library.php:109
+msgid "Facebook"
+msgstr ""
+
+#: inc/library.php:110
+msgid "Twitter"
+msgstr ""
+
+#: inc/library.php:111
+msgid "Pinterest"
+msgstr ""
+
+#: inc/library.php:168
+msgid " at "
+msgstr ""
+
+#: inc/library.php:207
+msgid "<span class=\"mobile-nav\">Previous</span>"
+msgstr ""
+
+#: inc/library.php:211
+msgid "<span class=\"mobile-nav\">Next</span>"
+msgstr ""
+
+#. /page title in breadcrumbs, 0 - don't show
+#. tag before the current crumb
+#. tag after the current crumb
+#: inc/library.php:259
+msgid "Home"
+msgstr ""
+
+#: inc/library.php:260
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: inc/library.php:261
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/library.php:262
+#, php-format
+msgid "Posts tagged %s"
+msgstr ""
+
+#: inc/library.php:263
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: inc/library.php:264
+msgid "Error 404"
+msgstr ""
+
+#: inc/library.php:319 inc/library.php:321 inc/theme-options.php:827
+msgid "Sponsor"
+msgstr ""
+
+#: inc/library.php:392
+msgid "Page"
+msgstr ""
+
+#: inc/library.php:422
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/library.php:432
+msgid "Daily Archives:"
+msgstr ""
+
+#: inc/library.php:437
+msgid "Monthly Archives:"
+msgstr ""
+
+#: inc/library.php:441
+msgid "Yearly Archives:"
+msgstr ""
+
+#: inc/library.php:451
+msgid "Author's Posts"
+msgstr ""
+
+#: inc/library.php:456
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/library.php:494
+msgid "Link color"
+msgstr ""
+
+#: inc/library.php:495
+msgid "Hover link color"
+msgstr ""
+
+#: inc/library.php:496
+msgid "Accent color"
+msgstr ""
+
+#: inc/library.php:497
+msgid "Footer Color"
+msgstr ""
+
+#: inc/library.php:498
+msgid "Parallax Color"
+msgstr ""
+
+#: inc/library.php:678
+msgid "WPlook Panel"
+msgstr ""
+
+#: inc/library.php:688
+msgid "Theme Options"
+msgstr ""
+
+#: inc/library.php:698
+msgid "Support"
+msgstr ""
+
+#: inc/library.php:709
+msgid "Our Themes"
+msgstr ""
+
+#: inc/library.php:719
+msgid "Become our fan on Facebook"
+msgstr ""
+
+#: inc/library.php:729
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: inc/library.php:748
+msgid "Tranzaction ID"
+msgstr ""
+
+#: inc/library.php:750
+msgid "First Name"
+msgstr ""
+
+#: inc/library.php:751
+msgid "Last Name"
+msgstr ""
+
+#: inc/library.php:752
+msgid "Donation amount"
+msgstr ""
+
+#: inc/library.php:755 inc/library.php:884 inc/library.php:936
+msgid "Date"
+msgstr ""
+
+#: inc/library.php:781 inc/library.php:796 inc/library.php:811
+#: inc/library.php:827 inc/library.php:843 inc/library.php:859
+#: inc/library.php:910 inc/library.php:961
+msgid "Unknown"
+msgstr ""
+
+#: inc/library.php:799 inc/library.php:814 inc/library.php:830
+#: inc/library.php:846 inc/library.php:862 inc/library.php:913
+#: inc/library.php:964
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/library.php:934
+msgid "Title"
+msgstr ""
+
+#: inc/theme-options.php:42
+msgid "General"
+msgstr ""
+
+#: inc/theme-options.php:43
+msgid "<p>Help content goes here!</p>"
+msgstr ""
+
+#: inc/theme-options.php:47
+msgid "<p>Sidebar content goes here!</p>"
+msgstr ""
+
+#: inc/theme-options.php:58
+msgid "General settings"
+msgstr ""
+
+#: inc/theme-options.php:68
+msgid "Teaser Settings"
+msgstr ""
+
+#: inc/theme-options.php:78
+msgid "Blog settings"
+msgstr ""
+
+#: inc/theme-options.php:88
+msgid "Speakers settings"
+msgstr ""
+
+#: inc/theme-options.php:98
+msgid "Staff settings"
+msgstr ""
+
+#: inc/theme-options.php:108
+msgid "Sponsors settings"
+msgstr ""
+
+#: inc/theme-options.php:118
+msgid "Daily Agenda settings"
+msgstr ""
+
+#: inc/theme-options.php:128
+msgid "Gallery settings"
+msgstr ""
+
+#: inc/theme-options.php:138
+msgid "Testimonials settings"
+msgstr ""
+
+#: inc/theme-options.php:148
+msgid "Ticket settings"
+msgstr ""
+
+#: inc/theme-options.php:158
+msgid "Payment settings"
+msgstr ""
+
+#: inc/theme-options.php:171
+msgid "Logo Image"
+msgstr ""
+
+#: inc/theme-options.php:174
+msgid "Upload your own logo"
+msgstr ""
+
+#: inc/theme-options.php:184
+msgid "Custom Cascading Style Sheets"
+msgstr ""
+
+#: inc/theme-options.php:187
+msgid "Add custom CSS to your theme"
+msgstr ""
+
+#: inc/theme-options.php:197
+msgid "Contact Form Email"
+msgstr ""
+
+#: inc/theme-options.php:200
+msgid "Add the default email address for contact form."
+msgstr ""
+
+#: inc/theme-options.php:210
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: inc/theme-options.php:213
+msgid "Insert the complete tracking script from analytics.google.com"
+msgstr ""
+
+#: inc/theme-options.php:223
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-options.php:226
+msgid "Activate or deactivate the breadcrumb"
+msgstr ""
+
+#: inc/theme-options.php:236
+msgid "Display Sharing Buttons On Posts"
+msgstr ""
+
+#: inc/theme-options.php:239
+msgid "This option can be overwritten by individual posts."
+msgstr ""
+
+#: inc/theme-options.php:249
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/theme-options.php:252
+msgid ""
+"Upload a footer background image. Recommended dimensions: 1680px x 800px."
+msgstr ""
+
+#: inc/theme-options.php:262
+msgid "Copyright"
+msgstr ""
+
+#: inc/theme-options.php:265
+msgid "Enter your Copyright notice displayed in the footer of the website"
+msgstr ""
+
+#: inc/theme-options.php:266
+msgid "Copyright &copy; 2014. All Rights reserved"
+msgstr ""
+
+#: inc/theme-options.php:279
+msgid "Teaser background"
+msgstr ""
+
+#: inc/theme-options.php:282
+msgid "Add teaser Background"
+msgstr ""
+
+#: inc/theme-options.php:292
+msgid "Background Color"
+msgstr ""
+
+#: inc/theme-options.php:295
+msgid "Add background Color"
+msgstr ""
+
+#: inc/theme-options.php:305
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/theme-options.php:308
+msgid "Add background Opacity. Ex: From 0 to 1, 0.5 means 50%."
+msgstr ""
+
+#: inc/theme-options.php:318
+msgid "Event Location"
+msgstr ""
+
+#: inc/theme-options.php:321
+msgid "Add the event location"
+msgstr ""
+
+#: inc/theme-options.php:331
+msgid "Event date"
+msgstr ""
+
+#: inc/theme-options.php:334
+msgid "Add the event date"
+msgstr ""
+
+#: inc/theme-options.php:344
+msgid "Number of speakers"
+msgstr ""
+
+#: inc/theme-options.php:347
+msgid "Display number of speakers"
+msgstr ""
+
+#: inc/theme-options.php:357
+msgid "Number of tickets"
+msgstr ""
+
+#: inc/theme-options.php:360
+msgid "Display number of tickets"
+msgstr ""
+
+#: inc/theme-options.php:370
+msgid "Teaser title"
+msgstr ""
+
+#: inc/theme-options.php:373
+msgid "Add Title"
+msgstr ""
+
+#: inc/theme-options.php:383
+msgid "Teaser title Color"
+msgstr ""
+
+#: inc/theme-options.php:386
+msgid "Add title color"
+msgstr ""
+
+#: inc/theme-options.php:396
+msgid "Teaser Description"
+msgstr ""
+
+#: inc/theme-options.php:399
+msgid "Add Description"
+msgstr ""
+
+#: inc/theme-options.php:409
+msgid "Teaser Description Color"
+msgstr ""
+
+#: inc/theme-options.php:412
+msgid "Add description color"
+msgstr ""
+
+#: inc/theme-options.php:423
+msgid "Social Network"
+msgstr ""
+
+#: inc/theme-options.php:426
+msgid ""
+"Press the <strong>Add New</strong> button in order to add social media links"
+msgstr ""
+
+#: inc/theme-options.php:456
+msgid ""
+"<strong>NOTICE</strong>: Choose one item from tne next list: <br />fa-"
+"facebook, <br />fa-github, <br />fa-twitter, <br />fa-pinterest, <br />fa-"
+"linkedin, <br />fa-google-plus, <br />fa-youtube, <br />fa-skype, <br />fa-"
+"vimeo"
+msgstr ""
+
+#: inc/theme-options.php:479
+msgid "Excerpt limit for list template"
+msgstr ""
+
+#: inc/theme-options.php:482
+msgid "Set how many words do you want to display for blog excerpt"
+msgstr ""
+
+#: inc/theme-options.php:492
+msgid "Excerpt limit for Post Widget"
+msgstr ""
+
+#: inc/theme-options.php:495
+msgid "Set how many words do you want to display for Post Widget"
+msgstr ""
+
+#: inc/theme-options.php:506
+msgid "Number of news per page"
+msgstr ""
+
+#: inc/theme-options.php:509
+msgid "Set how many cause do you want to display on blog template"
+msgstr ""
+
+#: inc/theme-options.php:520
+msgid "Featured image on single post"
+msgstr ""
+
+#: inc/theme-options.php:523
+msgid "Activate/Deactivated the Featured image on single post"
+msgstr ""
+
+#: inc/theme-options.php:533
+msgid "Date on single post"
+msgstr ""
+
+#: inc/theme-options.php:536
+msgid "Activate/Deactivated the date on single post"
+msgstr ""
+
+#: inc/theme-options.php:546
+msgid "Author on single post"
+msgstr ""
+
+#: inc/theme-options.php:549
+msgid "Activate/Deactivated the author on single post"
+msgstr ""
+
+#: inc/theme-options.php:559
+msgid "Category on single post"
+msgstr ""
+
+#: inc/theme-options.php:562
+msgid "Activate/Deactivated the category on single post"
+msgstr ""
+
+#: inc/theme-options.php:573
+msgid "Date on blog post"
+msgstr ""
+
+#: inc/theme-options.php:576
+msgid "Activate/Deactivated the date on blog post"
+msgstr ""
+
+#: inc/theme-options.php:586
+msgid "Author on Blog post"
+msgstr ""
+
+#: inc/theme-options.php:589
+msgid "Activate/Deactivated the author on blog post"
+msgstr ""
+
+#: inc/theme-options.php:599
+msgid "Category on Blog post"
+msgstr ""
+
+#: inc/theme-options.php:602
+msgid "Activate/Deactivated the category on blog post"
+msgstr ""
+
+#: inc/theme-options.php:617
+msgid "Custom Post Type Speaker"
+msgstr ""
+
+#: inc/theme-options.php:620
+msgid "Activate the Custom Post Type Speaker"
+msgstr ""
+
+#: inc/theme-options.php:630 inc/theme-options.php:714
+#: inc/theme-options.php:810 inc/theme-options.php:880
+#: inc/theme-options.php:910 inc/theme-options.php:993
+msgid "URL Rewrite"
+msgstr ""
+
+#: inc/theme-options.php:633 inc/theme-options.php:659
+#: inc/theme-options.php:717 inc/theme-options.php:743
+#: inc/theme-options.php:813 inc/theme-options.php:839
+#: inc/theme-options.php:883 inc/theme-options.php:913
+#: inc/theme-options.php:939 inc/theme-options.php:996
+msgid ""
+"<strong>NOTE:</strong> After changing this field go to Settings > Permalinks "
+"> Save Changes"
+msgstr ""
+
+#: inc/theme-options.php:643 inc/theme-options.php:823
+msgid "URL Rewrite name"
+msgstr ""
+
+#: inc/theme-options.php:646 inc/theme-options.php:730
+#: inc/theme-options.php:826 inc/theme-options.php:926
+msgid "The URL Rewrite name will appear in the rootline/breadcrumb"
+msgstr ""
+
+#: inc/theme-options.php:656 inc/theme-options.php:740
+#: inc/theme-options.php:836 inc/theme-options.php:936
+msgid "Category URL Rewrite"
+msgstr ""
+
+#: inc/theme-options.php:670
+msgid "Number of Speakers per page"
+msgstr ""
+
+#: inc/theme-options.php:673
+msgid "Set how many Speakers do you want to display on speaker template"
+msgstr ""
+
+#: inc/theme-options.php:683
+msgid "Speakers Page"
+msgstr ""
+
+#: inc/theme-options.php:686
+msgid ""
+"Select the page you use for displaying speakers to link to it in the "
+"breadcrumbs."
+msgstr ""
+
+#: inc/theme-options.php:701
+msgid "Custom Post Type Staff"
+msgstr ""
+
+#: inc/theme-options.php:704
+msgid "Activate the Custom Post Type Staff"
+msgstr ""
+
+#: inc/theme-options.php:727 inc/theme-options.php:923
+msgid "URL Rewrite Name"
+msgstr ""
+
+#: inc/theme-options.php:753
+msgid "Number of staff per page"
+msgstr ""
+
+#: inc/theme-options.php:756
+msgid "Set how many staff members do you want to display on staff template"
+msgstr ""
+
+#: inc/theme-options.php:766
+msgid "Staff Page"
+msgstr ""
+
+#: inc/theme-options.php:769
+msgid ""
+"Select the page you use for displaying staff to link to it in the "
+"breadcrumbs."
+msgstr ""
+
+#: inc/theme-options.php:784
+msgid "Custom Post Type Sponsors"
+msgstr ""
+
+#: inc/theme-options.php:787
+msgid "Activate the Custom Post Type Sponsors"
+msgstr ""
+
+#: inc/theme-options.php:797
+msgid "Number of Sponsor to display"
+msgstr ""
+
+#: inc/theme-options.php:800
+msgid "Set how many sponsors do you want to display"
+msgstr ""
+
+#: inc/theme-options.php:849
+msgid "Sponsors Page"
+msgstr ""
+
+#: inc/theme-options.php:852
+msgid ""
+"Select the page you use for displaying sponsors to link to it in the "
+"breadcrumbs."
+msgstr ""
+
+#: inc/theme-options.php:867
+msgid "Custom Post Type Daily Agenda"
+msgstr ""
+
+#: inc/theme-options.php:870
+msgid "Activate the Custom Post Type Daily Agenda"
+msgstr ""
+
+#: inc/theme-options.php:897
+msgid "Custom Post Type Gallery"
+msgstr ""
+
+#: inc/theme-options.php:900
+msgid "Activate the Custom Post Type Gallery"
+msgstr ""
+
+#: inc/theme-options.php:949
+msgid "Number of galleries per page"
+msgstr ""
+
+#: inc/theme-options.php:952
+msgid "Set how many galleries do you want to display on gallery template"
+msgstr ""
+
+#: inc/theme-options.php:962
+msgid "Galleries Page"
+msgstr ""
+
+#: inc/theme-options.php:965
+msgid ""
+"Select the page you use for displaying galleries to link to it in the "
+"breadcrumbs."
+msgstr ""
+
+#: inc/theme-options.php:980
+msgid "Custom Post Type Testimonials"
+msgstr ""
+
+#: inc/theme-options.php:983
+msgid "Activate the Custom Post Type Testimonials"
+msgstr ""
+
+#: inc/theme-options.php:1011
+msgid "Custom Post Type Tickets"
+msgstr ""
+
+#: inc/theme-options.php:1014
+msgid "Activate the Custom Post Type Tickets"
+msgstr ""
+
+#: inc/theme-options.php:1029 inc/theme-options.php:1032
+msgid "PayPal API Username"
+msgstr ""
+
+#: inc/theme-options.php:1042 inc/theme-options.php:1045
+msgid "PayPal API Password"
+msgstr ""
+
+#: inc/theme-options.php:1055 inc/theme-options.php:1058
+msgid "PayPal API Signature"
+msgstr ""
+
+#: inc/theme-options.php:1068
+msgid "PayPal Page return"
+msgstr ""
+
+#: inc/theme-options.php:1071
+msgid ""
+"Select the page where the user will return back after successful payment"
+msgstr ""
+
+#: inc/theme-options.php:1081
+msgid "PayPal Page Cancel"
+msgstr ""
+
+#: inc/theme-options.php:1084
+msgid ""
+"Select the page where the user will return back after canceled payment "
+"process"
+msgstr ""
+
+#: inc/theme-options.php:1094
+msgid "Currency Code"
+msgstr ""
+
+#: inc/theme-options.php:1097
+msgid "Add currency code, for ex: USD, EUR, CAD"
+msgstr ""
+
+#: inc/update.php:24
+#, php-format
+msgid "%1$s Updates"
+msgstr ""
+
+#: inc/update.php:25
+msgid "Theme Updates"
+msgstr ""
+
+#: inc/update.php:96
+#, php-format
+msgid "%1$s - Theme Updates"
+msgstr ""
+
+#: inc/update.php:99
+#, php-format
+msgid ""
+"A newer version of the %1$s theme, %2$s, is now available to download from "
+"WPlook Studio."
+msgstr ""
+
+#: inc/update.php:105
+msgid "Update the theme"
+msgstr ""
+
+#: inc/update.php:107
+msgid ""
+"<strong>Note:</strong> Make sure to make a backup of the theme and your "
+"WordPress site before updating the theme. Your content and settings will be "
+"preserved during the update, but it's important to have backups in case "
+"something goes wrong."
+msgstr ""
+
+#: inc/update.php:111
+msgid ""
+"<strong>Note:</strong> You are using a multisite installation of WordPress. "
+"This means you might be on an installation of WordPress managed by someone "
+"else and might not be able to install themes yourself. If this is the case, "
+"and you do not have access to the theme files, contact your administrator "
+"about performing the update to get the latest and greatest features of this "
+"theme."
+msgstr ""
+
+#: inc/update.php:115
+msgid "Manual theme update via FTP"
+msgstr ""
+
+#: inc/update.php:117 inc/update.php:124
+msgid ""
+"Download the latest version of the theme from the <a href=\"https://wplook."
+"com/my-account/\">WPlook Studio site</a>."
+msgstr ""
+
+#: inc/update.php:118
+#, php-format
+msgid ""
+"Login to your FTP account and navigate to <code>wp-content/themes</code>. "
+"Delete the theme folder called <code>%1$s</code>."
+msgstr ""
+
+#: inc/update.php:119
+#, php-format
+msgid ""
+"Extract the downloaded archive and upload the <code>%1$s</code> folder from "
+"your computer into the <code>wp-content/themes</code> folder on your server."
+msgstr ""
+
+#: inc/update.php:122
+msgid "Manual theme update via WordPress"
+msgstr ""
+
+#: inc/update.php:125
+msgid ""
+"Login to your WordPress dashboard, head over to Appearance &rarr; Themes."
+msgstr ""
+
+#: inc/update.php:126
+#, php-format
+msgid "Activate another theme and delete the %1$s theme."
+msgstr ""
+
+#: inc/update.php:127
+#, php-format
+msgid ""
+"Head over to Appearance &rarr; Themes &rarr; Add New and upload <code>%1$s."
+"zip</code>."
+msgstr ""
+
+#: inc/update.php:128
+#, php-format
+msgid "Activate the %1$s theme."
+msgstr ""
+
+#: inc/update.php:131
+msgid "Information and support"
+msgstr ""
+
+#: inc/update.php:132
+msgid ""
+"If you have made any changes to the theme files, make sure to back those up "
+"and restore them after the update has completed. In the future, you should "
+"consider using <a href=\"https://codex.wordpress.org/Child_Themes\">child "
+"themes</a> to ensure you can update safety without overwriting your changes."
+msgstr ""
+
+#: inc/update.php:133
+msgid ""
+"If you have any questions about theme updates, please do not hesitate to <a "
+"href=\"https://wplook.com/help\">contact us</a>."
+msgstr ""
+
+#: inc/update.php:135
+#, php-format
+msgid "%1$s changelog"
+msgstr ""
+
+#: inc/widgets/widget-address.php:22
+msgid "WPlook Address (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-address.php:23
+msgid "A widget for displaying Contact address on home page"
+msgstr ""
+
+#: inc/widgets/widget-address.php:37
+msgid "Contact Us"
+msgstr ""
+
+#: inc/widgets/widget-address.php:78 inc/widgets/widget-countdown.php:59
+#: inc/widgets/widget-flickr.php:55 inc/widgets/widget-gallery-home.php:62
+#: inc/widgets/widget-gallery.php:57 inc/widgets/widget-page.php:47
+#: inc/widgets/widget-posts.php:63 inc/widgets/widget-quote.php:50
+#: inc/widgets/widget-schedule.php:65 inc/widgets/widget-social.php:122
+#: inc/widgets/widget-speakers.php:77 inc/widgets/widget-sponsors.php:68
+#: inc/widgets/widget-staff.php:77 inc/widgets/widget-testimonials.php:57
+#: inc/widgets/widget-tickets.php:72 inc/widgets/widget-video.php:56
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:84
+msgid "Address:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:90
+msgid "Latitude:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:95
+msgid "Longitude:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:100
+msgid "Phone:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:102
+msgid "Add Phone Number"
+msgstr ""
+
+#: inc/widgets/widget-address.php:106
+msgid "Email:"
+msgstr ""
+
+#: inc/widgets/widget-address.php:108
+msgid "Add Email Address"
+msgstr ""
+
+#: inc/widgets/widget-address.php:112
+msgid "The ID of this widget is: <strong>location</strong>"
+msgstr ""
+
+#: inc/widgets/widget-address.php:164
+msgid "Location"
+msgstr ""
+
+#: inc/widgets/widget-address.php:168
+msgid "Address"
+msgstr ""
+
+#: inc/widgets/widget-address.php:180
+msgid "Phone"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:22
+msgid "WPlook Countdown (Home page)"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:23
+msgid "A widget for displaying a countdown to a date on the Home Page"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:37
+msgid "Countdown"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:64
+msgid "Date:"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:69
+msgid "The date format is: <strong>DD-MM-YYYY HH:MM</strong>"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:70
+msgid "The ID of this widget is: <strong>countdown</strong>"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:109
+msgid "days"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:109
+msgid "hours"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:109
+msgid "minutes"
+msgstr ""
+
+#: inc/widgets/widget-countdown.php:109
+msgid "seconds"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:23
+msgid "WPlook Flickr"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:24
+msgid "A widget for displaying Flickr images"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:37
+msgid "My Flickr"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:43
+msgid "insert flickr RSS"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:49
+msgid "6"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:62
+msgid "Flickr RSS:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:66
+msgid "Insert your Flickr RSS."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:72
+msgid "Number of thumbs:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:76
+msgid "Number of thumbnails you want to display."
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:21
+msgid "WPlook Gallery (Home page)"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:22
+msgid "A widget for displaying latest galleries on the home page"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:43
+#: inc/widgets/widget-gallery-home.php:75 inc/widgets/widget-gallery.php:44
+#: inc/widgets/widget-gallery.php:70 inc/widgets/widget-posts.php:44
+#: inc/widgets/widget-posts.php:76 inc/widgets/widget-speakers.php:44
+#: inc/widgets/widget-speakers.php:90 inc/widgets/widget-staff.php:44
+#: inc/widgets/widget-staff.php:90 inc/widgets/widget-tickets.php:66
+#: inc/widgets/widget-tickets.php:103
+msgid "All"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:50 inc/widgets/widget-gallery.php:51
+#: inc/widgets/widget-posts.php:51 inc/widgets/widget-speakers.php:51
+#: inc/widgets/widget-speakers.php:58 inc/widgets/widget-sponsors.php:42
+#: inc/widgets/widget-staff.php:51 inc/widgets/widget-staff.php:58
+#: inc/widgets/widget-tickets.php:45
+msgid "4"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:68 inc/widgets/widget-gallery.php:63
+#: inc/widgets/widget-posts.php:69 inc/widgets/widget-speakers.php:83
+#: inc/widgets/widget-sponsors.php:79 inc/widgets/widget-staff.php:83
+#: inc/widgets/widget-tickets.php:96
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:85 inc/widgets/widget-posts.php:86
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:87 inc/widgets/widget-posts.php:88
+msgid "Number of posts you want to display"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:91
+msgid "URL to all galleries:"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:96
+msgid "The ID of this widget is: <strong>gallery_home</strong>"
+msgstr ""
+
+#: inc/widgets/widget-gallery-home.php:194 inc/widgets/widget-posts.php:194
+msgid "Visit our Blog"
+msgstr ""
+
+#: inc/widgets/widget-gallery.php:22
+msgid "WPlook Gallery"
+msgstr ""
+
+#: inc/widgets/widget-gallery.php:23
+msgid "A widget for displaying galleries"
+msgstr ""
+
+#: inc/widgets/widget-gallery.php:80
+msgid "Number of galleries:"
+msgstr ""
+
+#: inc/widgets/widget-gallery.php:82
+msgid "Number of galleries you want to display"
+msgstr ""
+
+#: inc/widgets/widget-init.php:66
+msgid "First Home Page Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:68
+msgid "Widgets in this area will be shown only on the Home Page Template."
+msgstr ""
+
+#: inc/widgets/widget-init.php:81
+msgid "Page Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:83
+msgid "Widgets in this area will be shown on all Pages."
+msgstr ""
+
+#: inc/widgets/widget-init.php:96
+msgid "Press/Blog Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:98
+msgid "Widgets in this area will be shown on all Posts."
+msgstr ""
+
+#: inc/widgets/widget-init.php:113
+msgid "Speakers Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:115
+msgid "Widgets in this area will be shown on all Speakers."
+msgstr ""
+
+#: inc/widgets/widget-init.php:130
+msgid "Sponsors Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:132
+msgid "Widgets in this area will be shown on Sponsor page."
+msgstr ""
+
+#: inc/widgets/widget-init.php:146
+msgid "Staff Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:148
+msgid "Widgets in this area will be shown on all Staff."
+msgstr ""
+
+#: inc/widgets/widget-init.php:163
+msgid "Gallery Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:165
+msgid "Widgets in this area will be shown on all Gallery pages."
+msgstr ""
+
+#: inc/widgets/widget-init.php:179
+msgid "Contact Page Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:181
+msgid "Widgets in this area will be shown on Contact Pages."
+msgstr ""
+
+#: inc/widgets/widget-init.php:194
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:196 inc/widgets/widget-init.php:206
+#: inc/widgets/widget-init.php:216
+msgid "The first footer widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:204
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:214
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-page.php:22
+msgid "WPlook Page (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-page.php:23
+msgid "A widget to displaying a page content"
+msgstr ""
+
+#: inc/widgets/widget-page.php:52
+msgid "Page:"
+msgstr ""
+
+#: inc/widgets/widget-page.php:64
+msgid "The widget id is:"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:22
+msgid "WPlook Posts (Home page)"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:23
+msgid "A widget for displaying latest Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:37
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:92
+msgid "URL to all posts:"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:97
+msgid "The ID of this widget is: <strong>latestposts_home</strong>"
+msgstr ""
+
+#: inc/widgets/widget-quote.php:22
+msgid "WPlook Quote"
+msgstr ""
+
+#: inc/widgets/widget-quote.php:23
+msgid "A widget for displaying Quotes"
+msgstr ""
+
+#: inc/widgets/widget-quote.php:56
+msgid "Quote:"
+msgstr ""
+
+#: inc/widgets/widget-quote.php:62
+msgid "The ID of this widget is: quotewidget"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:22
+msgid "WPlook Schedule (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:23
+msgid "A widget for displaying Schedules on home page"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:37
+msgid "Schedule"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:45 inc/widgets/widget-schedule.php:52
+#: inc/widgets/widget-testimonials.php:44 inc/widgets/widget-tickets.php:52
+msgid "3"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:70
+msgid "Number of Schedules:"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:75 inc/widgets/widget-speakers.php:106
+#: inc/widgets/widget-staff.php:106 inc/widgets/widget-tickets.php:83
+msgid "Number of Columns:"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:77 inc/widgets/widget-speakers.php:108
+#: inc/widgets/widget-staff.php:108 inc/widgets/widget-tickets.php:85
+msgid "The Number of Columns you want to display"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:81
+msgid "View all URL:"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:83
+msgid "View all URL"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:87
+msgid "The ID of this widget is: <strong>schedule</strong>"
+msgstr ""
+
+#: inc/widgets/widget-schedule.php:208
+msgid "View all"
+msgstr ""
+
+#: inc/widgets/widget-social.php:22
+msgid "WPlook Social"
+msgstr ""
+
+#: inc/widgets/widget-social.php:23
+msgid "A widget for displaying Social Networking"
+msgstr ""
+
+#: inc/widgets/widget-social.php:130
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:134
+msgid "Insert the full URL of your Twitter profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:141
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:145
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr ""
+
+#: inc/widgets/widget-social.php:152
+msgid "RSS:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:156
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+
+#: inc/widgets/widget-social.php:163
+msgid "Google Plus:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:167
+msgid "Insert the full URL of your Google Plus profile"
+msgstr ""
+
+#: inc/widgets/widget-social.php:174
+msgid "You Tube:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:178
+msgid "Insert the full URL of your YouTube profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:185
+msgid "Vimeo:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:189
+msgid "Insert the full URL of your vimeo profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:196
+msgid "Lastfm:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:200
+msgid "Insert the full URL of your lastfm profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:207
+msgid "Soundcloud:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:211
+msgid "Insert the full URL of your soundcloud profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:218
+msgid "Pinterest:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:222
+msgid "Insert the full URL of your Pinterest profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:229
+msgid "Flickr:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:233
+msgid "Insert the full URL of your Flickr profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:240
+msgid "Linkedin:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:244
+msgid "Insert the full URL of your Linkedin profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:251
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:255
+msgid "Insert the full URL of your Instagram profile."
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:22
+msgid "WPlook Speakers (Home page)"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:23
+msgid "A widget for displaying Speakers on Home Page"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:65 inc/widgets/widget-sponsors.php:56
+#: inc/widgets/widget-staff.php:65 inc/widgets/widget-testimonials.php:51
+msgid "random"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:100
+msgid "Number of Speakers:"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:102
+msgid "Number of Speakers you want to display"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:112 inc/widgets/widget-sponsors.php:91
+#: inc/widgets/widget-staff.php:112
+msgid "Order by:"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:114 inc/widgets/widget-sponsors.php:93
+#: inc/widgets/widget-staff.php:114 inc/widgets/widget-testimonials.php:70
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:115 inc/widgets/widget-sponsors.php:94
+#: inc/widgets/widget-staff.php:115 inc/widgets/widget-testimonials.php:71
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:120
+msgid "URL to all Speakers:"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:122 inc/widgets/widget-sponsors.php:101
+msgid "View all speakers URL"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:126
+msgid "The ID of this widget is: <strong>speakers</strong>"
+msgstr ""
+
+#: inc/widgets/widget-speakers.php:277
+msgid "View all Speakers"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:21
+msgid "WPlook Sponsors (Home page)"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:22
+msgid "A widget for displaying Sponsors on Home Page"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:73
+msgid "Number of Sponsors:"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:75
+msgid "Number of Sponsors you want to display"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:81
+msgid "All categories"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:99
+msgid "URL to all Sponsors:"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:105
+msgid "The ID of this widget is: <strong>sponsors</strong>"
+msgstr ""
+
+#: inc/widgets/widget-sponsors.php:219
+msgid "View all Sponsors"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:22
+msgid "WPlook Staff (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:23
+msgid "A widget for displaying staff"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:100
+msgid "Number of Staff:"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:102
+msgid "Number of Staff you want to display"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:120
+msgid "URL to all Staff:"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:122
+msgid "View all staff URL"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:126
+msgid "The ID of this widget is: <strong>staff</strong>"
+msgstr ""
+
+#: inc/widgets/widget-staff.php:275
+msgid "View all Staff"
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:22
+msgid "WPlook Testimonials (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:23
+msgid "A widget for displaying Testimonials."
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:62
+msgid "Number of testimonials:"
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:64
+msgid "The number of testimonials you want to display."
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:68
+msgid "Order:"
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:76
+msgid "The ID of this widget is: <strong>testimonials</strong>"
+msgstr ""
+
+#: inc/widgets/widget-testimonials.php:163
+msgid "Sorry, no testimonials matched your criteria."
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:22
+msgid "WPlook Tickets (Home Page)"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:23
+msgid "A widget for displaying Tickets"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:77
+msgid "Number of Tickets:"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:79
+msgid "The Number of Tickets you want to display"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:89
+msgid "Background Image:"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:91
+msgid "Add the Background Image URL"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:112
+msgid "The ID of this widget is: <strong>pricing</strong>"
+msgstr ""
+
+#: inc/widgets/widget-tickets.php:212 inc/widgets/widget-tickets.php:224
+msgid "Buy ticket"
+msgstr ""
+
+#: inc/widgets/widget-video.php:22
+msgid "WPlook Video"
+msgstr ""
+
+#: inc/widgets/widget-video.php:23
+msgid "Display a YouTube/Vimeo video in the sidebar"
+msgstr ""
+
+#: inc/widgets/widget-video.php:37
+msgid "Video"
+msgstr ""
+
+#: inc/widgets/widget-video.php:60
+msgid "Enter one of the following:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:63
+msgid "YouTube ID:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:65 inc/widgets/widget-video.php:71
+#, php-format
+msgid "For example, %1$s in the URL %2$s."
+msgstr ""
+
+#: inc/widgets/widget-video.php:69
+msgid "Vimeo ID:"
+msgstr ""
+
+#: inc/widgets/widget-video.php:125
+msgid ""
+"YouTube or Vimeo video ID not found. Have you entered it correctly in the "
+"widget settings?"
+msgstr ""
+
+#: index.php:16
+msgid "Latest posts"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for..."
+msgstr ""
+
+#: single-post_staff.php:72
+msgid "Sorry, no Staff matched your criteria."
+msgstr ""
+
+#: template-dayly-agenda.php:117
+msgid "Sorry, no Agenda matched your criteria."
+msgstr ""
