@@ -44,7 +44,7 @@ Domain Path: /languages
  *    without disabling user zoom.
  */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,900italic|Montserrat:400,700|Karma:400,300,500,600,700&subset=latin,latin-ext,devanagari);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,900italic|Montserrat:400,700|Karma:400,300,500,600,700&subset=latin,latin-ext,devanagari);
 
 html {
   font-family: sans-serif;
@@ -10980,7 +10980,7 @@ th.hide-for-touch {
   }
 }
 
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.2
  */
@@ -11061,8 +11061,8 @@ th.hide-for-touch {
   -ms-transform: translate3d(0, 0, 0);
 }
 
-/* 
- *  Owl Carousel CSS3 Transitions 
+/*
+ *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
 
